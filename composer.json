@@ -21,8 +21,13 @@
         "php": ">=5.6.0"
     },
     "autoload": {
-        "psr-0": {
-            "RestService": "src"
+        "psr-4": {
+            "RestService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "Test/"
         }
     }
 }
