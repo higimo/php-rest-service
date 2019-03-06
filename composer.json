@@ -1,5 +1,7 @@
 {
-    "name": "marcj/php-rest-service",
+    "name": "higimo/php-rest-service",
+    "type": "library",
+    "homepage": "https://github.com/higimo/php-rest-service",
     "description": "PHPRestService is a simple and fast PHP class for server side RESTful APIs.",
     "keywords": ["REST", "RESTful", "php", "API"],
     "license": "MIT",
@@ -8,14 +10,19 @@
             "name": "Marc J. Schmidt",
             "email": "marc@kryn.org",
             "homepage": "http://marcjschmidt.de"
+        },
+        {
+            "name": "Dima Utkin",
+            "email": "higimo@gmail.com",
+            "homepage": "http://higimo.ru"
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.6.0"
     },
     "autoload": {
         "psr-0": {
-            "RestService": ""
+            "RestService": "src"
         }
     }
 }
